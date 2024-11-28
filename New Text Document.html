@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Omar</title>
+    <style>
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #fcfcfc, #6bc1ff);
+            color: #333;
+            overflow-x: hidden;
+            justify-content: flex-end;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 30px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            transform: translateY(30px);
+            animation: slide-in 1s ease-out forwards;
+        }
+        h1 {
+            color: #25609f;
+            margin-bottom: 10px;
+            text-align: center;
+            font-size: 2.5em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            animation: fade-in 1.5s ease-in-out;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        .contact-info div {
+            font-size: 1em;
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+            opacity: 0;
+            transform: translateY(50px);
+            animation: fade-in-up 0.8s ease forwards;
+        }
+        .section:nth-child(even) {
+            animation-delay: 0.2s;
+        }
+        .section-title {
+            border-left: 5px solid #0056b3;
+            padding-left: 10px;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+            font-weight: bold;
+            color: #0056b3;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skill {
+            background: #0056b3;
+            color: #fff;
+            padding: 8px 15px;
+            margin: 5px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            transition: transform 0.3s ease, background 0.3s ease;
+        }
+        .skill:hover {
+            transform: scale(1.1);
+            background: #6bc1ff;
+        }
+        @keyframes slide-in {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        @keyframes fade-in {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        @keyframes fade-in-up {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .profile-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            object-fit: cover;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin-right: 20px;
+            
+        }
+        .profile-image:hover {
+            transform: scale(1.1);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+        }
+    
+
+    </style>
+</head>
+<body>
+    <div class="container">
+       
+        <img src="omar.png" alt="Profile Picture" class="profile-image">
+        <h1>Omar GAMAL</h1>
+        <div class="contact-info">
+            <div>Email: omargamalfahmy7@gmail.com</div>
+            <div>Phone: 01152550646 / 01033011705 </div>
+            <div>Location: Cairo, Egypt</div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Career Objective</div>
+            <p>"Seeking a challenging role as a Cost and Administrative Accountant where I can apply my expertise in cost analysis, budgeting, and financial reporting to optimize organizational performance, streamline processes, and contribute to achieving strategic objectives. I aim to leverage my administrative skills and attention to detail in managing resources efficiently and ensuring compliance with financial regulations."
+
+               </p>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Work Experience</div>
+            <ul>
+                <li>
+                    <strong>Site Accountant </strong> - <STrong>inshaa</STrong> Finishing & Contracting Company (2018 to 2020 )
+                    <p>Responsible for managing financial records, preparing reports, and optimizing cost analysis for projects.</p>
+               
+                    <strong>Cost and Management Accountant</strong> - <STrong>Double line </STrong> Finishing & Contracting Company (2021 to 2022 )
+                    <p>Responsible for managing financial records, preparing reports, and optimizing cost analysis for projects.</p>
+               
+                    <strong>Cost and Management Accountant</strong> - <STrong> Argynza </STrong> Contracting Company (2022 to 2024 )
+                    <p>Responsible for managing financial records, preparing reports, and optimizing cost analysis for projects.</p>
+               
+                    <strong>Cost and Management Accountant</strong> - <STrong> Magic Designs  </STrong> Contracting Company (2024 - Present )
+                    <p>Responsible for managing financial records, preparing reports, and optimizing cost analysis for projects.</p>
+               
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Projects</div>
+            <ul>
+                <li>
+                    <strong>Employee Attendance System</strong>
+                    <p>Developed a system using Excel to record employee attendance, calculate delays, and manage overtime.</p>
+                    
+                    <strong>Cost accounting System</strong>
+                    <p>Developing a complete system using Excel to calculate project costs in detail and calculate customer and contractor expenses.</p>
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Skills</div>
+            <div class="skills">
+                <div class="skill">Excel</div>
+                <div class="skill">Word</div>
+                <div class="skill">Power Point</div>
+                <div class="skill">Ability to solve Problems</div>
+                <div class="skill">The ability to adapt to the work environment</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Education</div>
+            <ul>
+                <li>
+                    <strong>Bachelor's in Accounting</strong> - Faculty of Commerce (FoC), Suez Canal University (SU), (Graduated: 2020)
+                </li>
+            <li>
+                <strong>GPA: Good </strong>
+            </li>
+            
+            </ul>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Certifications</div>
+            <ul>
+                <li>Excel Advanced - Coursera </li>
+                <li>English Course from Higher Institute of the Armed Forces for Languages </li>
+                <li>Certifcate of Completion from Microsoft Egypt </li>
+            </ul>
+        </div>
+        <div class="section">
+            <div class="section-title"> Personal Information</div>
+            <ul>
+                <strong>Marital Status</strong> - Single.
+              
+            </ul>
+        <ul>
+            <strong>Nationality</strong> - Applied. 
+        </ul>
+        <ul>
+            <strong>Military Status</strong> - Egyptian.
+        </ul>
+        <ul>
+            <strong>Date of Birth</strong> - 16thApril 1998.
+        </ul>
+        
+        </div>
+  
+  
+    </div>
+</body>
+</html>
